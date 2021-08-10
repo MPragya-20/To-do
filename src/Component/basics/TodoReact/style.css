@@ -1,0 +1,39 @@
+#checkList:hover{
+    transition: 0.9s!important;
+    color: white!important;
+    background-color: purple!important;
+}
+.eachlist{
+    margin-top: 2px;
+    background-color: cyan;
+    color: black;
+    text-align: left;
+    padding: 3px;
+    height: 80px;
+    width: 50%;
+    display: flex;
+}
+@media only screen and (max-width:500px){
+    .eachlist{
+        margin-left: 0px;
+    }
+}
+.fa-github:hover{
+    color : rgb(146, 140, 140)!important;
+    transition: 0.6s;
+}
+.fa-linkedin:hover{
+    color: aqua !important;
+    transition: 0.6s;
+}
+@media only screen and (min-width:500px){
+    .fa-edit{
+        margin-left: 41%!important;
+    }
+    .fa-trash{
+        margin-left: 45%!important;
+    }
+    .fa-plus{
+        margin-left: 46%!important;
+    }
+}
